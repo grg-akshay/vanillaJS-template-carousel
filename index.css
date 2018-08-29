@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family:'Poppins';
+}
+.flt-left{
+    float:left;
+}
+.carousel{
+    width:100%;
+    margin:auto;
+}
+.row{
+    width:90%;
+    padding:0;
+    overflow:hidden;
+    margin:auto;
+}
+.row-container{
+    width:2000px;
+    transition:0.5s;
+}
+.container{
+    width:250px;
+    float:left;
+    display:inline;
+    margin:0 5px;
+}
+
+.controls{
+    width:100%;
+    margin:auto;
+}
+button{
+    border:none;
+    padding:10px 20px;
+    color:grey;
+    background-color: white;
+    font-weight:bold;
+    outline:none;
+    border-radius:3px;
+    height:200px;
+    position:relative;
+}
